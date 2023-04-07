@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Emergency Room Admitting Slip</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			background-image: url('https://scontent.fmnl13-1.fna.fbcdn.net/v/t39.30808-6/297217260_2561176497345712_4454000950623251344_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGCdFAcx0-Y1yGAU4LZtS3sxCOeCw7Fj5fEI54LDsWPl5jwr5Zmc1rP-YEZR2oonokWneACPwSaVlgN4W0KAozJ&_nc_ohc=yogqlai-kAQAX_aipTc&_nc_ht=scontent.fmnl13-1.fna&oh=00_AfA5Fn3z-HFzFk3NCZCujJO6ozL95Np2TuWJQQCs_ZOz5g&oe=6431CD3E');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-color: #;
+			color: #fff;
+		}
+		h1 {
+			font-size: 28px;
+			text-align: center;
+			padding-top: 40px;
+			margin-bottom: -50px;
+			color: #000;
+}
+h2 {
+			font-size: 20px;
+			text-align: center;
+			padding-top: 40px;
+			margin-bottom: 0px;
+			color: #000;
+}
+h3 {
+			font-size: 15px;
+			text-align: center;
+			padding-top: 40px;
+			margin-top: -30px;
+			color: #000;
+}
+		h4 {
+			font-size: 20px;
+			text-align: center;
+			padding-top: 40px;
+			margin-top: -30px;
+			color: #000;
+}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-top: 20px;
+			color: #000;
+			background-color: #fff;
+			opacity: 0.8;
+		}
+		th, td {
+			border: 1px solid black;
+			padding: 5px;
+		}
+		th {
+			background-color: #;
+		}
+        label{
+  display: block;
+  float: left;
+  width : 120px;    
+}
+	</style>
+    <meta charset="utf-6"> 
+    <meta name="viewport" content="width=device-width, initial-scale=2"> 
+  
+</head>
+<body>
+	<h1>Devine Love Medical Center</h1>
+    <h2>Emergency Room</h2>
+     <h3>Outpatient/Inpatient COnsultant Form</h3>
+    
+	
+	<table>
+   <tr>
+<td colspan="2">
+	
+            Date: <input type="date" name="dob">
+            Time: <input type="time" name="dob">
+           
+				
+			</td>
+		</tr>
+		<tr>
+<td colspan="2">
+				<h4><b><center>Personal Information</center></b></h4>
+              
+			
+             
+            <input type='text' placeholder='SURNAME'> 
+	        <input type='text' placeholder='FIRST NAME'>
+            <input type='text' placeholder='MIDDLE NAME'>
+             Date of Birth: <input type="date" name="dob">
+            Gender: <input type="checkbox"> Male <input type="checkbox"> Female
+            <b>Marital Status :</b> <input type="checkbox"> Single <input type="checkbox"> Married <input type="checkbox">Widowed <input type="checkbox">Separated <input type="checkbox">Divorced
+            
+        <tr>
+			<td>
+Address: <input type="text" name="physician"><br>
+			</td>
+			<td>
+				<label for="phone">Phone number:</label>
+  <input type="tel" id="phone" name="phone"
+  placeholder="1234-567-8910"
+  pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}">
+			</td>
+		</tr>
+        
+        <tr>
+<td colspan="2">
+		<input type='text' placeholder='Occupation'> 
+	        <input type='text' placeholder='Citizenship'>
+            <input type='text' placeholder='Religion'>
+           <b> Triage: </b><input type="checkbox"> Emergent <input type="checkbox"> Urgent <input type="checkbox"> Non-urgent
+            
+     
+               
+		<tr>
+			<td>
+				Attending Physician: <input type="text" name="physician"><br>
+							</td>
+			<td>
+				<b><center>Classification </b></center>
+                <input type="checkbox"> House Case <input type="checkbox"> Private <input type="checkbox"> Referral <input type="checkbox">Philhealth <input type="checkbox">HMO <input type="checkbox">Non-Philhealth
+				
+			</td>
+		</tr>
+        <tr>
+<td colspan="2">
+		<b><center>Vital Signs </b></center><input type='text' placeholder='Blood Pressure'> 
+	        <input type='text' placeholder='Pulse Rate'>
+            <input type='text' placeholder='Respiratory Rate'>
+             <input type='text' placeholder='Oxygen Saturation'>
+              <input type='text' placeholder='Weight'>
+               <input type='text' placeholder='Height'>
+               
+        Pain Scale: <select size=1 name=txtgender>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+            
+        <tr>
+        <tr>
+			<td>
+				Chief Complain: <input type="text" name="physician"><br>
+							</td>
+			<td>
+				<b><center></b></center>
+                <input type='text' placeholder='TO1'>
+            <input type='text' placeholder='DO1'>
+             <input type='text' placeholder='PO1'
+				
+			</td>
+		</tr>
+        <tr>
+<td colspan="2">
+				<b><center>Review of System</center></b>
+              
+        <tr>
+         <tr>
+			<td>
+            
+				<p><input type="checkbox"> Constitutional (fever, chills, weight loss, fatigue)</p>
+                <p><input type="checkbox"> Skin  (rash, lesions, bruises)</p>
+                <p><input type="checkbox"> Eyes  (redness, acoity changes, pain)</p>
+                <p><input type="checkbox"> EENT  (hearing loss, sore throat, discharge tinnitus)</p>
+                <p><input type="checkbox"> Cardiovascular  (chest pain, palpitation)</p>
+                <p><input type="checkbox"> Respiratory  (cough, shortness of breath)</p>
+							</td>
+			<td>
+				<p><input type="checkbox"> OIT (diarrhea, vommiting, abdominal pain, nausea) </p>
+                <p><input type="checkbox"> Genitourinary  (dysuria, urgency, nocturia, frequency)</p>
+                <p><input type="checkbox"> Neurologic  (headache, dizziness, seizure)</p>
+               <p> <input type="checkbox"> Psyhiatry  (depression, anxiety)</p>
+               <p> <input type="checkbox"> Musculoskeletal  (muscle pain, joint pain)</p>
+               <p> <input type="checkbox"> OTHERS: </p>
+				
+			</td>
+		</tr>
+        <tr>
+         <tr>
+			<td>
+            <b><center>Past Medical History</b></center>
+				 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="html">Asthma</label><br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="html">CVA</label><br>
+                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="html">Cancer</label><br>
+                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="html">Diabetes</label><br>
+                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="html">Heart Disease</label><br>
+                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="html">Hypertension</label><br>
+                <input type='text' placeholder='OTHERS'>
+              <p>  <input type='text' placeholder='Past Surgery'></p>
+  
+							</td>
+                             <td>
+            <b><center>Current Medication</b></center>
+           <center> <textarea name="message" rows="10" cols="30">
+.
+</textarea> </center>
+           
+             
+  
+							</td>
+			
+		</tr>
+         <tr>
+<td colspan="2">
+				<b><center>Obstetric History</center></b>
+               
+                       LMP: <input type="date" name="dob">
+                       AOG: <input type="date" name="dob">
+                       EDD: <input type="date" name="dob">
+                       <input type='text' placeholder='G'>
+                       <input type='text' placeholder='P'>
+   <tr>
+    <tr>
+<td colspan="2">
+				<b><center>P/S History</center></b>
+               
+                   
+   <tr>
+   <tr>
+			<td>
+            
+				Allergies:  <input type="text" name="physician"><br>
+			<td>
+				Immunization:  <input type="text" name="physician"><br>
+				
+			</td>
+		</tr>
+   <tr>
+<td colspan="2">
+				<b><center>Travel History</center></b>
+                History of travel/visit/ Work in other country <input type="checkbox"> Yes <input type="checkbox"> No
+                <p>If yes, Place of travel <input type="text" name="physician"><br></p>
+               Arrival in the Philippines  Date: <input type="date" name="dob">
+            Time: <input type="time" name="dob">
+           
+<tr>
+<tr>
+<td colspan="2">
+				<b><center>Covid-19 Protocol</center></b>
+                <input type="checkbox"> Unvaccinated <input type="checkbox"> Vaccinated <input type="checkbox"> Booster
+               1st Dose Date: <input type="date" name="dob">
+               2nd Dose Date: <input type="date" name="dob">
+               Booster Date: <input type="date" name="dob"> 
+             <p>  Name of vaccine <input type="text" name="physician"><br> </p>
+                Facility <input type="text" name="physician"><br>
+               
+           
+<tr>
+<tr>
+<td colspan="2">
+				<b><center>History of Present Illness</center></b>
+                <center> <textarea name="message" rows="10" cols="30">
+.
+</textarea> </center>
+               
+           
+<tr>
+       
+	</table>
+	
+</body>
+</html>
